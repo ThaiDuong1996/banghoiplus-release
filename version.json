@@ -1,19 +1,13 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "released": "2026-09-28",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.0.0.exe",
-  "sha256": "f10f25117a8627e9296f112e02a59327c5d1fd27eb2b236dd00b8583c4c5afd3",
-  "size": 80449932,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.0.1.exe",
+  "sha256": "87a0b70e1699bbe98f280182ddb89eb716117e075acb4f4f2dea48aba552a72b",
+  "size": 80467794,
   "notes": [
-    "Bản đầu tiên của Bang Hội Plus: đủ mọi tính năng của Boss Check, cộng thêm các công cụ quản lý bang hội.",
-    "Lấy danh sách thành viên bang thẳng từ game, không cần gõ tay.",
-    "Tab Hộp Thư: ghi lại mọi thư trong game kèm vật phẩm và số lượng, có chế độ thủ quỹ, ghi cả thư gửi đi và tồn kho.",
-    "Hộp Thư tự cập nhật (tuỳ chọn, mặc định tắt): tích ô \"🔄 Tự cập nhật hộp thư\" là có thư mới app tự lấy về, không cần mở Hòm thư trong game.",
-    "Điểm danh qua phòng voice Discord, tự ghép biệt danh Discord với tên trong game (gõ không dấu vẫn tìm được).",
-    "Tab Chấm Công: điểm danh theo ca, hệ số theo vai trò, bảng công theo kỳ, chia quỹ, xuất Excel và đồng bộ Google Sheets.",
-    "Bản quyền riêng: key của Boss Check hay app khác không dùng được cho Bang Hội Plus và ngược lại.",
-    "Kích hoạt bằng mã máy, người bán cấp xong chỉ cần bấm Kết Nối Lại; mất mạng vẫn dùng tới 3 ngày.",
-    "Một key chạy một máy cùng lúc; có bảng điều khoản sử dụng khi mở lần đầu."
+    "Sửa lỗi không bắt được tin (báo \"Luồng đứng im — 0 frame\" liên tục) khi mở LDPlayer cùng lúc với MuMu Player hoặc MEmu: app tự nhận ra máy ảo khác đang chiếm cổng của LDPlayer và nối vòng tới đúng LDPlayer đã chọn.",
+    "Phần mềm khác tắt adb không còn làm app đứt kết nối với máy ảo.",
+    "Không nối được hoặc không bắt được gói nào thì app nói rõ lý do và cách xử lý."
   ],
   "mandatory": false
 }
