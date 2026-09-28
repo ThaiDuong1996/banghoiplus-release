@@ -1,13 +1,18 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.3",
   "released": "2026-09-28",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.0.1.exe",
-  "sha256": "87a0b70e1699bbe98f280182ddb89eb716117e075acb4f4f2dea48aba552a72b",
-  "size": 80467794,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.0.3.exe",
+  "sha256": "fb879173e5daa3269971f1e1ae965151d5fa1a0c0447cfa4038b002260bba5b3",
+  "size": 80599902,
   "notes": [
-    "Sửa lỗi không bắt được tin (báo \"Luồng đứng im — 0 frame\" liên tục) khi mở LDPlayer cùng lúc với MuMu Player hoặc MEmu: app tự nhận ra máy ảo khác đang chiếm cổng của LDPlayer và nối vòng tới đúng LDPlayer đã chọn.",
-    "Phần mềm khác tắt adb không còn làm app đứt kết nối với máy ảo.",
-    "Không nối được hoặc không bắt được gói nào thì app nói rõ lý do và cách xử lý."
+    "Sửa lỗi không bắt được tin khi máy có MuMu Player chạy cùng LDPlayer (app báo \"Cổng adb … đang bị MuMuNxDevice.exe chiếm\"): app mở một cổng kết nối riêng tới đúng LDPlayer đã chọn, bật MuMu trước hay sau đều được.",
+    "App không còn kết nối vào các máy MuMu/MEmu đang chạy, không ảnh hưởng phần mềm khác đang dùng chúng.",
+    "Khi vẫn không kết nối được, nhật ký ghi rõ lý do để hỗ trợ nhanh hơn.",
+    "Tab Quả Huy Hoàng: thêm ô Ca: Cả ngày / Trưa / Tối, tự chuyển sang ca đang diễn ra (12:00 trưa, 19:30 tối), vẫn chọn tay được. Bảng xếp hạng, dòng tổng và Excel đi theo ca đang chọn.",
+    "Chấm Công: ca Quả tối đổi đúng giờ 19:30–19:55 (trước ghi nhầm 17:30).",
+    "Hộp Thư → Thủ Quỹ: cột tồn thật Túi / Rương 1–4 / Tổng thật, đọc thẳng từ túi và Thủ khố của nhân vật, tự cập nhật khi chuyển đồ, dùng đồ, rút tiền. Bật app giữa chừng thì đăng nhập lại hoặc đi dịch trạm một lần.",
+    "Xuất Excel và Google Sheets của Hộp Thư có thêm tồn thật và cột \"Đã xử lý\".",
+    "Cần dán lại Apps Script (⚙ G-Sheets → chép mã → Triển khai → Phiên bản mới). Mã cũ vẫn chạy, app sẽ nhắc sau mỗi lần đồng bộ."
   ],
   "mandatory": false
 }
