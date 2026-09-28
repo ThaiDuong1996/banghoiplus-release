@@ -1,18 +1,14 @@
 {
-  "version": "1.0.3",
-  "released": "2026-09-28",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.0.3.exe",
-  "sha256": "fb879173e5daa3269971f1e1ae965151d5fa1a0c0447cfa4038b002260bba5b3",
-  "size": 80599902,
+  "version": "1.1.0",
+  "released": "2026-09-29",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.0.exe",
+  "sha256": "95c7751f494e0ebecd7d14b1af1ff4cd5a23c0fd461c41aeab2f08c9f6665f58",
+  "size": 80633685,
   "notes": [
-    "Sửa lỗi không bắt được tin khi máy có MuMu Player chạy cùng LDPlayer (app báo \"Cổng adb … đang bị MuMuNxDevice.exe chiếm\"): app mở một cổng kết nối riêng tới đúng LDPlayer đã chọn, bật MuMu trước hay sau đều được.",
-    "App không còn kết nối vào các máy MuMu/MEmu đang chạy, không ảnh hưởng phần mềm khác đang dùng chúng.",
-    "Khi vẫn không kết nối được, nhật ký ghi rõ lý do để hỗ trợ nhanh hơn.",
-    "Tab Quả Huy Hoàng: thêm ô Ca: Cả ngày / Trưa / Tối, tự chuyển sang ca đang diễn ra (12:00 trưa, 19:30 tối), vẫn chọn tay được. Bảng xếp hạng, dòng tổng và Excel đi theo ca đang chọn.",
-    "Chấm Công: ca Quả tối đổi đúng giờ 19:30–19:55 (trước ghi nhầm 17:30).",
-    "Hộp Thư → Thủ Quỹ: cột tồn thật Túi / Rương 1–4 / Tổng thật, đọc thẳng từ túi và Thủ khố của nhân vật, tự cập nhật khi chuyển đồ, dùng đồ, rút tiền. Bật app giữa chừng thì đăng nhập lại hoặc đi dịch trạm một lần.",
-    "Xuất Excel và Google Sheets của Hộp Thư có thêm tồn thật và cột \"Đã xử lý\".",
-    "Cần dán lại Apps Script (⚙ G-Sheets → chép mã → Triển khai → Phiên bản mới). Mã cũ vẫn chạy, app sẽ nhắc sau mỗi lần đồng bộ."
+    "Chọn được cả máy MuMu Player và MEmu, không chỉ LDPlayer: bấm \"🖥 Chọn máy ảo\", danh sách hiện mọi máy đang chạy kèm tên và trạng thái root, chọn máy nào thì app theo dõi máy đó.",
+    "Máy MuMu/MEmu cần bật Quyền Root trong cài đặt của máy đó (app báo cách bật nếu chưa có).",
+    "Sửa lỗi bản 1.0.3 báo \"wait-for-device timed out after 20 seconds\" và không kết nối được LDPlayer.",
+    "Sửa lỗi khi mở cùng MuMu Player, app có thể đọc nhầm máy MuMu (ví dụ ghi thư của nhân vật bên MuMu vào Hộp Thư). Nay khi chọn LDPlayer, app kiểm tra đúng là máy LDPlayer rồi mới đọc."
   ],
   "mandatory": false
 }
