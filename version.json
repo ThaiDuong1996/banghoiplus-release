@@ -1,14 +1,21 @@
 {
-  "version": "1.1.0",
-  "released": "2026-09-29",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.0.exe",
-  "sha256": "95c7751f494e0ebecd7d14b1af1ff4cd5a23c0fd461c41aeab2f08c9f6665f58",
-  "size": 80633685,
+  "version": "1.1.10",
+  "released": "2026-09-30",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.10.exe",
+  "sha256": "455703a93b966833b0631582c982bb815aa98a4d254e03d9cb753c39dc16c120",
+  "size": 80736832,
   "notes": [
-    "Chọn được cả máy MuMu Player và MEmu, không chỉ LDPlayer: bấm \"🖥 Chọn máy ảo\", danh sách hiện mọi máy đang chạy kèm tên và trạng thái root, chọn máy nào thì app theo dõi máy đó.",
-    "Máy MuMu/MEmu cần bật Quyền Root trong cài đặt của máy đó (app báo cách bật nếu chưa có).",
-    "Sửa lỗi bản 1.0.3 báo \"wait-for-device timed out after 20 seconds\" và không kết nối được LDPlayer.",
-    "Sửa lỗi khi mở cùng MuMu Player, app có thể đọc nhầm máy MuMu (ví dụ ghi thư của nhân vật bên MuMu vào Hộp Thư). Nay khi chọn LDPlayer, app kiểm tra đúng là máy LDPlayer rồi mới đọc."
+    "Thêm ô 🔎 Tự hỏi tên người đứng sẵn: bật lên thì người đã đứng cạnh từ trước khi bấm ▶ cũng có tên sau vài giây, không cần ai chạy ra xa rồi quay lại. Mặc định tắt; khi bật, app gửi thêm gói hỏi tên vào kết nối game.",
+    "Không còn đếm nhầm thú và quái là người.",
+    "Bán kính điểm danh mặc định là 4 ô, vừa khoảng một màn hình game. Máy đã cài từ trước vẫn giữ số đang lưu; muốn đổi thì sửa ban_kinh_diem_danh trong chat_config.json cạnh app.",
+    "Thêm thẻ 🤝 Giao dịch: app tự ghi giao dịch trực tiếp (ai, kho nhận gì, kho đưa gì) khi tab Hộp Thư đang ▶; giao dịch huỷ thì không ghi. Đặt tên người chưa rõ và xoá giao dịch ngay tại thẻ này.",
+    "Đối chiếu quả tính giao dịch giống như thư; Thủ Quỹ tính cả giao dịch vào Đã nhận, Đã gửi, Nhận − gửi. Giao dịch có ô Đã xử lý như thư.",
+    "Thủ Quỹ hiện toàn bộ đồ trong túi và rương trang 1–4, kể cả món chưa từng có trong thư.",
+    "Chọn một thành viên rồi bấm + Ghi nộp tay thì tên được điền sẵn.",
+    "Bảng tồn trên Google Sheets chưa tính giao dịch trực tiếp.",
+    "App không còn đứng hình khi có nhiều thư; chuyển qua lại các tab nhanh hơn.",
+    "Đổi cách nối LDPlayer: nối thẳng trước, LDPlayer bị MuMu/MEmu giữ cổng thì đi đường vòng. Máy có cả LDPlayer và MuMu/MEmu được kiểm kỹ hơn để không đọc nhầm máy.",
+    "Khi không nối được, nhật ký ghi rõ hơn để dễ tìm lỗi."
   ],
   "mandatory": false
 }
