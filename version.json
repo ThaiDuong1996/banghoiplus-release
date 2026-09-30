@@ -1,21 +1,14 @@
 {
-  "version": "1.1.10",
+  "version": "1.1.11",
   "released": "2026-09-30",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.10.exe",
-  "sha256": "455703a93b966833b0631582c982bb815aa98a4d254e03d9cb753c39dc16c120",
-  "size": 80736832,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.11.exe",
+  "sha256": "d48c86fe98ba4ff665c72246f4b5cb3629f4b7e81459506cd62c74c4c4ad722c",
+  "size": 80741171,
   "notes": [
-    "Thêm ô 🔎 Tự hỏi tên người đứng sẵn: bật lên thì người đã đứng cạnh từ trước khi bấm ▶ cũng có tên sau vài giây, không cần ai chạy ra xa rồi quay lại. Mặc định tắt; khi bật, app gửi thêm gói hỏi tên vào kết nối game.",
-    "Không còn đếm nhầm thú và quái là người.",
-    "Bán kính điểm danh mặc định là 4 ô, vừa khoảng một màn hình game. Máy đã cài từ trước vẫn giữ số đang lưu; muốn đổi thì sửa ban_kinh_diem_danh trong chat_config.json cạnh app.",
-    "Thêm thẻ 🤝 Giao dịch: app tự ghi giao dịch trực tiếp (ai, kho nhận gì, kho đưa gì) khi tab Hộp Thư đang ▶; giao dịch huỷ thì không ghi. Đặt tên người chưa rõ và xoá giao dịch ngay tại thẻ này.",
-    "Đối chiếu quả tính giao dịch giống như thư; Thủ Quỹ tính cả giao dịch vào Đã nhận, Đã gửi, Nhận − gửi. Giao dịch có ô Đã xử lý như thư.",
-    "Thủ Quỹ hiện toàn bộ đồ trong túi và rương trang 1–4, kể cả món chưa từng có trong thư.",
-    "Chọn một thành viên rồi bấm + Ghi nộp tay thì tên được điền sẵn.",
-    "Bảng tồn trên Google Sheets chưa tính giao dịch trực tiếp.",
-    "App không còn đứng hình khi có nhiều thư; chuyển qua lại các tab nhanh hơn.",
-    "Đổi cách nối LDPlayer: nối thẳng trước, LDPlayer bị MuMu/MEmu giữ cổng thì đi đường vòng. Máy có cả LDPlayer và MuMu/MEmu được kiểm kỹ hơn để không đọc nhầm máy.",
-    "Khi không nối được, nhật ký ghi rõ hơn để dễ tìm lỗi."
+    "Sửa lỗi giao dịch do người kia mời bị ghi thành \"Chưa rõ người\" hoặc không được ghi. Giờ ai mời cũng ghi đủ và có tên.",
+    "Món cùng loại được gộp lại khi hiển thị, ví dụ \"Quả Huy Hoàng (trung) x10\" thay vì lặp 10 lần. Số liệu trong sổ không đổi.",
+    "Người giao dịch chưa rõ tên: nếu đang bật ô 🔎 Tự hỏi tên người đứng sẵn ở Điểm Danh, app tự hỏi tên và điền vào dòng giao dịch sau vài giây.",
+    "Dòng \"Chưa rõ người\" do bản cũ ghi thì chọn dòng rồi bấm ✏ Đặt tên."
   ],
   "mandatory": false
 }
