@@ -1,14 +1,20 @@
 {
-  "version": "1.1.11",
-  "released": "2026-09-30",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.11.exe",
-  "sha256": "d48c86fe98ba4ff665c72246f4b5cb3629f4b7e81459506cd62c74c4c4ad722c",
-  "size": 80741171,
+  "version": "1.1.13",
+  "released": "2026-10-01",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.13.exe",
+  "sha256": "0a991bcd016c99575ae4f5b109f9592dcb7df4830c086806c850ce9bfbcb7d67",
+  "size": 80793760,
   "notes": [
-    "Sửa lỗi giao dịch do người kia mời bị ghi thành \"Chưa rõ người\" hoặc không được ghi. Giờ ai mời cũng ghi đủ và có tên.",
-    "Món cùng loại được gộp lại khi hiển thị, ví dụ \"Quả Huy Hoàng (trung) x10\" thay vì lặp 10 lần. Số liệu trong sổ không đổi.",
-    "Người giao dịch chưa rõ tên: nếu đang bật ô 🔎 Tự hỏi tên người đứng sẵn ở Điểm Danh, app tự hỏi tên và điền vào dòng giao dịch sau vài giây.",
-    "Dòng \"Chưa rõ người\" do bản cũ ghi thì chọn dòng rồi bấm ✏ Đặt tên."
+    "Sửa thư cuối cùng bị kẹt \"Trong hộp\": bấm Nhận vật phẩm ở thư cuối trong hòm thì vài giây sau app tự chuyển thành \"Đã nhận\", không cần đóng mở lại hòm thư.",
+    "Hàng nút của thẻ Thư, Giao dịch, Đối chiếu quả tự xuống dòng khi cửa sổ hẹp, không còn bị cắt chữ.",
+    "KNB mua đồ khác không còn bị tính thành trả nợ quả: giao dịch mà Kho đưa món không phải Quả Huy Hoàng được tự để ngoài sổ (cột Sổ quả ở thẻ Giao dịch ghi \"🚫 Không tính\"). Thư gửi KNB để mua đồ thì chọn thư ở thẻ Thư rồi bấm 🚫 Không tính nợ quả. Nút này cũng có ở thẻ Giao dịch để bật / tắt tay; bấm lần nữa là tính lại.",
+    "Thêm ô Ca: Cả ngày / Trưa / Tối. Trưa tính tới trước 19:30; Tối tính từ 19:30, phần trưa chưa nộp nằm ở cột Nợ cũ.",
+    "Nút 🗑 Đặt Lại cho từng thẻ: thẻ Thư xoá hết thư trong sổ của app, thẻ Giao dịch xoá hết giao dịch, thẻ Đối chiếu quả xoá các dòng chỉnh tay (giữ bảng giá và ngày bắt đầu sổ). Không xoá gì trên Google Sheets.",
+    "Thêm ô 🔍 Tìm thành viên riêng cho thẻ này: gõ vài chữ tên (không cần dấu) là bảng chỉ còn người khớp.",
+    "Nút ✏️ Chỉnh sửa thay cho \"+ Ghi nộp tay\": chọn một người (hoặc bấm đúp vào dòng) để sửa từng số của ngày đó — nhặt trưa, nhặt tối, kho đã giao, nộp quả, nộp KNB, nộp tay. Dùng khi thư ghi sai hoặc cần ghi giao dịch trực tiếp. Thư và quả tới sau vẫn được cộng tiếp.",
+    "Nút 🗑 Xoá đã chọn thay cho \"Xoá nộp tay đã chọn\": chọn thành viên ở bảng trên thì xoá nợ của người đó về 0; chọn dòng ở bảng dưới thì xoá dòng chỉnh tay đó. Xoá dòng \"Xoá nợ\" ở bảng dưới là lấy lại số nợ cũ.",
+    "Quả hỗ trợ không tính vào nợ: ở thẻ Thư, chọn thư gửi đi rồi bấm 🎁 Hỗ trợ (không tính nợ). Thư có chữ \"hỗ trợ\" trong nội dung được tự đánh dấu. Số quả hỗ trợ hiện ở cột Hỗ trợ của bảng đối chiếu.",
+    "Nút 🗑 Đặt Lại ở thẻ Điểm danh ca: xoá mọi lần chụp, ca đã chốt và quỹ; giữ danh bạ bang và bảng hệ số."
   ],
   "mandatory": false
 }
