@@ -1,22 +1,11 @@
 {
-  "version": "1.1.28",
+  "version": "1.1.29",
   "released": "2026-10-02",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.28.exe",
-  "sha256": "f86dbdca4949bcaf1416ea56d621de60f1ad4a21fa207b7d2d851af948f20175",
-  "size": 81017223,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.29.exe",
+  "sha256": "e2eec0ef5d74d52f885ac3fe9847d05cba0b8914ab53c55bf2c1020f1a43b4d7",
+  "size": 81018611,
   "notes": [
-    "Nút 📥 Nhận thư: app tự mở và nhận từng thư đến kèm Quả Huy Hoàng và thư Hệ Thống báo \"Vật phẩm của bạn đã được người khác mua\" (kèm KNB). Không phải bấm tay từng thư trong game.",
-    "Ô tích 📥 Tự nhận thư quả + thư bán đấu giá (mặc định tắt): có thư mới thuộc hai loại trên là app tự nhận, treo cả ngày được. Gặp lỗi (game không trả lời, túi và rương đầy, mất kết nối) thì app ghi lý do, giữ nguyên ô tích và tự thử lại sau 1 phút. Chỉ tắt khi bạn bỏ tích hoặc bấm ⏹ Dừng nhận.",
-    "Thư KNB \"mua\" của thành viên, thư hoàn trả và thư kèm vật phẩm khác không bị đụng tới — thư \"mua\" vẫn do thẻ 🤖 Bán quả xử lý.",
-    "Túi hết ô trống: app chuyển hết quả trong túi sang rương (chỉ chuyển quả) rồi nhận tiếp. Rương cũng hết chỗ thì chờ bạn dọn rồi tự nhận tiếp.",
-    "Diễn biến ghi ở nhật ký thẻ 🤖 Bán quả (các dòng có 📥).",
-    "Cần máy ảo LDPlayer Android 14 (64-bit) và bấm ▶ Bắt Đầu trước khi nhân vật kho đăng nhập, như tự bán quả.",
-    "Mọi ô xem lại lịch sử nay chọn được cả giờ : phút : giây: Đối chiếu quả, Hộp Thư (Thư / Giao dịch / Thủ Quỹ), Voucher Bang, Quả Huy Hoàng, Điểm Danh.",
-    "Voucher, Quả, Điểm Danh: mục \"Theo Ngày\" đổi thành \"Từ … đến …\", xem được một khoảng bất kỳ, ví dụ đúng khung 19:30:00–20:00:00.",
-    "Bán quả báo \"Túi đầy\" khi túi chỉ còn ô trống ở hàng cuối cùng: nay tính đủ 60 ô.",
-    "Bấm 🔍 Check quả với kho xong, sang 🤖 Bán quả không thấy thư KNB còn trong hộp: nay Check không tự đánh dấu Đã xử lý cho thư còn KNB chưa nhận.",
-    "Game bảo trì rồi vào lại, app báo \"Không thấy kết nối game\": nay app tự tìm lại kết nối mới của game.",
-    "Máy ảo đời cũ không tự bán quả / tự lấy hộp thư được: nay app báo rõ cần máy ảo LDPlayer Android 14 (64-bit)."
+    "Đổi tên 4 thẻ cho thanh thẻ đỡ chật, đủ 7 thẻ trên một hàng: 👹 Boss HK (Boss Hoàng Kim), 🚢 Boss PLD (Phong Lăng Độ), 🏆 Voucher (Voucher Bang), 🌟 Quả (Quả Huy Hoàng). Chức năng bên trong giữ nguyên."
   ],
   "mandatory": false
 }
