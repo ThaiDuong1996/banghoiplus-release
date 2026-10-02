@@ -1,11 +1,12 @@
 {
-  "version": "1.1.29",
+  "version": "1.1.30",
   "released": "2026-10-02",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.29.exe",
-  "sha256": "e2eec0ef5d74d52f885ac3fe9847d05cba0b8914ab53c55bf2c1020f1a43b4d7",
-  "size": 81018611,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.30.exe",
+  "sha256": "8477a166c4d12dba64758562e6cd8ba6e151d3152c0fc6b01de3a1c55bd7c0c8",
+  "size": 81018229,
   "notes": [
-    "Đổi tên 4 thẻ cho thanh thẻ đỡ chật, đủ 7 thẻ trên một hàng: 👹 Boss HK (Boss Hoàng Kim), 🚢 Boss PLD (Phong Lăng Độ), 🏆 Voucher (Voucher Bang), 🌟 Quả (Quả Huy Hoàng). Chức năng bên trong giữ nguyên."
+    "Thư ở bảng Chờ xử lý ghi \"Được\" giờ duyệt tay được: chọn dòng, bấm ✅ Duyệt, app hỏi lại \"Bạn đã xem thư và vẫn muốn duyệt theo sổ…?\" rồi mới gửi. Trước đây bấm chỉ báo \"Thư này đang chờ xử lý\" và không làm gì.",
+    "Thư thường ở bảng đề xuất: bấm ✅ Duyệt giờ hỏi xác nhận trước khi gửi quả (trước đây gửi luôn không hỏi)."
   ],
   "mandatory": false
 }
