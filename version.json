@@ -1,12 +1,26 @@
 {
-  "version": "1.1.30",
+  "version": "1.1.36",
   "released": "2026-10-02",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.30.exe",
-  "sha256": "8477a166c4d12dba64758562e6cd8ba6e151d3152c0fc6b01de3a1c55bd7c0c8",
-  "size": 81018229,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.36.exe",
+  "sha256": "1bee4b49a9796cc806994b85668a504c337af7e3c030d91b7fdbb035fd365ec5",
+  "size": 81323449,
   "notes": [
-    "Thư ở bảng Chờ xử lý ghi \"Được\" giờ duyệt tay được: chọn dòng, bấm ✅ Duyệt, app hỏi lại \"Bạn đã xem thư và vẫn muốn duyệt theo sổ…?\" rồi mới gửi. Trước đây bấm chỉ báo \"Thư này đang chờ xử lý\" và không làm gì.",
-    "Thư thường ở bảng đề xuất: bấm ✅ Duyệt giờ hỏi xác nhận trước khi gửi quả (trước đây gửi luôn không hỏi)."
+    "Giờ quả đông người hái, app từng đứng hình 10–17 giây. Nay app lưu gom vài giây một lần ở nền, giao diện không còn đứng. Tắt app vẫn lưu đủ.",
+    "Nút 👥 Danh sách bang ở thanh trên cùng, cạnh 🖥 Chọn máy ảo: chọn máy LDPlayer có acc đang ở trong bang, app tự hỏi danh sách thành viên và Nhật ký bang 5 phút một lần (thêm lúc 11:58 và 19:28), không cần mở cửa sổ Bang Hội.",
+    "Có người vào / rời bang thì app tự ghi mốc ở 🕘 Các lần Lưu đúng giờ trong nhật ký bang, không phải nhớ bấm 💾 Lưu.",
+    "Danh sách đổi thì mọi thẻ dùng danh sách tự vẽ lại ngay (cả Chấm Công, 🍑 Đối chiếu quả, 🎁 Hỗ trợ).",
+    "Chấm Công: người đã rời bang không được chia KNB, chỉ hiện mờ \"· đã rời bang\" ở ca cũ.",
+    "Cần máy ảo LDPlayer Android 14 (64-bit).",
+    "Chọn thành viên được hỗ trợ và số quả mỗi ngày. Số hỗ trợ trừ vào Còn nợ trước, phần còn lại gửi quả trung, mỗi thư một quả \"Hỗ trợ quả ngày …\" (không tính nợ). Kho không đủ quả thì không gửi ai; mỗi người mỗi ngày một lần.",
+    "Ô 🔁 Tự tính: bảng tự tính lại khi danh sách bang đổi, khi mở thẻ, khi thêm / bỏ người. Tắt ô thì bấm 🔄 Tính hôm nay.",
+    "Chọn Hôm nay / Hôm qua / 7 ngày / Tuần này / Tháng này hoặc Từ – Đến theo ngày giờ. 5 bảng: Tổng quan, Tài nguyên vào / ra (so sổ với tồn thật), Thành viên, Nhật ký, Top gửi thư (kèm phí gửi thư kho trả lại, mặc định 2 vạn mỗi thư có quả).",
+    "Ô số tóm tắt, ô 🔍 tìm (gõ không dấu được), bấm liên tục không khựng.",
+    "Bảng Tài nguyên: ✏️ Đổi tên món lạ (\"Vật phẩm (…)\"), 🗑 Xoá món khỏi bảng (lấy lại ở 👁 Món đã xoá), ô Ẩn món đã hết trong kho.",
+    "📊 Xuất Excel (tích Mỗi ngày một file để tách theo ngày), ☁️ Đồng bộ Sheets.",
+    "Muốn dùng ☁️ Đồng bộ Sheets cho Báo cáo thì dán lại mã Apps Script mới (⚙ G-Sheets → chép mã → Triển khai → Phiên bản mới).",
+    "Chọn dòng ở Thủ Quỹ (hoặc bấm đúp) → ✏️ Sửa / 🗑 Xoá thư của dòng chọn: hiện đúng các thư làm nên dòng đó để sửa hoặc xoá.",
+    "🎮 Lấy từ game: đã chọn máy lấy danh sách riêng thì danh sách hiện đúng.",
+    "Tự hỏi hộp thư lúc vừa nối không còn báo \"Chưa thấy kết nối game\"."
   ],
   "mandatory": false
 }
