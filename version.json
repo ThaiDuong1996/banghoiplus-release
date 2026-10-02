@@ -1,26 +1,15 @@
 {
-  "version": "1.1.36",
-  "released": "2026-10-02",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.36.exe",
-  "sha256": "1bee4b49a9796cc806994b85668a504c337af7e3c030d91b7fdbb035fd365ec5",
-  "size": 81323449,
+  "version": "1.1.37",
+  "released": "2026-10-03",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.37.exe",
+  "sha256": "c99f31b0c349145e0c1e48fdfff9268cc4a746410ecbe53a844a713c50a85f60",
+  "size": 81346647,
   "notes": [
-    "Giờ quả đông người hái, app từng đứng hình 10–17 giây. Nay app lưu gom vài giây một lần ở nền, giao diện không còn đứng. Tắt app vẫn lưu đủ.",
-    "Nút 👥 Danh sách bang ở thanh trên cùng, cạnh 🖥 Chọn máy ảo: chọn máy LDPlayer có acc đang ở trong bang, app tự hỏi danh sách thành viên và Nhật ký bang 5 phút một lần (thêm lúc 11:58 và 19:28), không cần mở cửa sổ Bang Hội.",
-    "Có người vào / rời bang thì app tự ghi mốc ở 🕘 Các lần Lưu đúng giờ trong nhật ký bang, không phải nhớ bấm 💾 Lưu.",
-    "Danh sách đổi thì mọi thẻ dùng danh sách tự vẽ lại ngay (cả Chấm Công, 🍑 Đối chiếu quả, 🎁 Hỗ trợ).",
-    "Chấm Công: người đã rời bang không được chia KNB, chỉ hiện mờ \"· đã rời bang\" ở ca cũ.",
-    "Cần máy ảo LDPlayer Android 14 (64-bit).",
-    "Chọn thành viên được hỗ trợ và số quả mỗi ngày. Số hỗ trợ trừ vào Còn nợ trước, phần còn lại gửi quả trung, mỗi thư một quả \"Hỗ trợ quả ngày …\" (không tính nợ). Kho không đủ quả thì không gửi ai; mỗi người mỗi ngày một lần.",
-    "Ô 🔁 Tự tính: bảng tự tính lại khi danh sách bang đổi, khi mở thẻ, khi thêm / bỏ người. Tắt ô thì bấm 🔄 Tính hôm nay.",
-    "Chọn Hôm nay / Hôm qua / 7 ngày / Tuần này / Tháng này hoặc Từ – Đến theo ngày giờ. 5 bảng: Tổng quan, Tài nguyên vào / ra (so sổ với tồn thật), Thành viên, Nhật ký, Top gửi thư (kèm phí gửi thư kho trả lại, mặc định 2 vạn mỗi thư có quả).",
-    "Ô số tóm tắt, ô 🔍 tìm (gõ không dấu được), bấm liên tục không khựng.",
-    "Bảng Tài nguyên: ✏️ Đổi tên món lạ (\"Vật phẩm (…)\"), 🗑 Xoá món khỏi bảng (lấy lại ở 👁 Món đã xoá), ô Ẩn món đã hết trong kho.",
-    "📊 Xuất Excel (tích Mỗi ngày một file để tách theo ngày), ☁️ Đồng bộ Sheets.",
-    "Muốn dùng ☁️ Đồng bộ Sheets cho Báo cáo thì dán lại mã Apps Script mới (⚙ G-Sheets → chép mã → Triển khai → Phiên bản mới).",
-    "Chọn dòng ở Thủ Quỹ (hoặc bấm đúp) → ✏️ Sửa / 🗑 Xoá thư của dòng chọn: hiện đúng các thư làm nên dòng đó để sửa hoặc xoá.",
-    "🎮 Lấy từ game: đã chọn máy lấy danh sách riêng thì danh sách hiện đúng.",
-    "Tự hỏi hộp thư lúc vừa nối không còn báo \"Chưa thấy kết nối game\"."
+    "Thư mua quả mà túi + rương hết quả: app gửi người mua thư \"Kho hết quả, có quả sẽ gửi\". Gửi được một phần thì hết: \"Kho hết quả, đã gửi 2/5, còn nợ 3, có quả gửi nốt\".",
+    "App chưa nhận KNB, thư mua để nguyên trong hộp; mỗi thư chỉ báo một lần. Ô 🤖 Tự động bán quả không còn tự tắt khi hết quả.",
+    "Kho có quả lại thì app tự gửi nốt (thư cũ trước), đủ rồi mới nhận KNB.",
+    "Ô 💰 Tự mua Ngân Phiếu (mặc định tắt) và ô số tờ mỗi lần. Bạc trong túi dưới 10 vạn lúc gửi thư (bán quả, hỗ trợ) thì app tự mua Ngân Phiếu 2 KNB/tờ ở Kỳ Trân Các rồi dùng (+50 vạn/tờ). Túi có sẵn Ngân Phiếu thì dùng trước.",
+    "Nhân vật kho phải đứng trong thành. Mua ra món khác Ngân Phiếu thì app dừng và tự bỏ tích."
   ],
   "mandatory": false
 }
