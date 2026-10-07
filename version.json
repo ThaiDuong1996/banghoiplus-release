@@ -1,15 +1,18 @@
 {
-  "version": "1.1.37",
-  "released": "2026-10-03",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.1.37.exe",
-  "sha256": "c99f31b0c349145e0c1e48fdfff9268cc4a746410ecbe53a844a713c50a85f60",
-  "size": 81346647,
+  "version": "1.2.1",
+  "released": "2026-10-08",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.2.1.exe",
+  "sha256": "6f97ea7cffdecbe98e13215e1c57c1e6f506e782ef5c17c05d14f1af108172ee",
+  "size": 81398750,
   "notes": [
-    "Thư mua quả mà túi + rương hết quả: app gửi người mua thư \"Kho hết quả, có quả sẽ gửi\". Gửi được một phần thì hết: \"Kho hết quả, đã gửi 2/5, còn nợ 3, có quả gửi nốt\".",
-    "App chưa nhận KNB, thư mua để nguyên trong hộp; mỗi thư chỉ báo một lần. Ô 🤖 Tự động bán quả không còn tự tắt khi hết quả.",
-    "Kho có quả lại thì app tự gửi nốt (thư cũ trước), đủ rồi mới nhận KNB.",
-    "Ô 💰 Tự mua Ngân Phiếu (mặc định tắt) và ô số tờ mỗi lần. Bạc trong túi dưới 10 vạn lúc gửi thư (bán quả, hỗ trợ) thì app tự mua Ngân Phiếu 2 KNB/tờ ở Kỳ Trân Các rồi dùng (+50 vạn/tờ). Túi có sẵn Ngân Phiếu thì dùng trước.",
-    "Nhân vật kho phải đứng trong thành. Mua ra món khác Ngân Phiếu thì app dừng và tự bỏ tích."
+    "Tab ⏱ Chấm Công gọn còn 3 thẻ: Điểm danh ca · Bảng công kỳ · Danh bạ bang. Thẻ Lịch sử có mặt (tab Điểm Danh cũ) bỏ vì trùng với Điểm danh ca; dữ liệu cũ trên máy vẫn còn, app không dùng nữa.",
+    "Chỉ còn một nút ▶ Bắt Đầu; một lần bấm Điểm danh ca này là chụp cả người trong game lẫn người trong phòng Discord. Bảng gộp chiếm hết chiều ngang, bảng lần chụp nằm trên.",
+    "Điểm danh ca có nút 📊 Xuất Excel: bảng gộp, từng lần chụp và giờ vào/ra phòng Discord của ca đang xem.",
+    "Bảng gộp của Điểm danh ca: cột STT đứng trước Tên trong game, xếp theo STT từ nhỏ tới lớn (chưa có STT xuống cuối).",
+    "Danh bạ bang: cột theo thứ tự STT · Tên trong game · Zalo · Biệt danh Discord · Vai trò…, mọi cột tự co giãn theo cửa sổ, ô chọn Vai trò đọc được hết chữ.",
+    "Hai ô chọn máy ảo đổi tên cho rõ: 🖥 Chọn LD acc kho (Boss, Quả, Hộp Thư) và 🖥 Chọn LD điểm danh (trong 👥 Danh sách bang: điểm danh + danh sách bang).",
+    "Ô 📏 Bán kính nhập theo đơn vị của game (32 = 1 ô, bên cạnh hiện ≈ N ô), 0 là không lọc. Số cũ tự quy đổi.",
+    "Có hướng dẫn tạo bot Discord từng bước (PDF + video), xin ở người bán key."
   ],
   "mandatory": false
 }
