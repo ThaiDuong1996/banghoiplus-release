@@ -1,25 +1,11 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "released": "2026-10-08",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.1.exe",
-  "sha256": "90955be90bf56a506bb43276ced42ae03e2d4b49b09faad0adc7388ae477f479",
-  "size": 81505882,
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.2.exe",
+  "sha256": "de10b8eb558e01ab98533f709ddf3068633939d492901d40d52f00add9d9d902",
+  "size": 81510092,
   "notes": [
-    "App tự lấy danh sách hảo hữu 5 giây sau khi nối game và 5 phút một lần; mở cửa sổ Hảo Hữu trong game cũng được; nút 🔄 Lấy từ game ngay.",
-    "Có lời mời kết bạn tới là app tự đồng ý (tắt được). Nhật ký ghi từng người.",
-    "Lương, Hỗ trợ, Bán quả: người chưa là hảo hữu thì không gửi. Lương / Hỗ trợ ghi \"Giữ lại\" trong nhật ký và hộp xác nhận; Bán quả đưa thư vào Chờ xử lý, kết bạn xong bấm Đề xuất lại. Chỉ chặn khi đã lấy được danh sách ít nhất một lần; tắt được.",
-    "📌 Giữ: tích tên (hoặc ➕ Giữ tên khác) để acc kho phụ, người ngoài bang cần giữ không bị xoá.",
-    "🧹 Xoá hảo hữu ngoài bang: liệt kê người không có trong danh sách bang (trừ Giữ), hỏi rồi xoá lần lượt 1,5 giây một người, có ⏹ Dừng. Chỉ chạy khi bấm.",
-    "Hộp hiện luôn \"Trong bang chưa là hảo hữu\" để nhắc họ kết bạn với acc kho (thư cho họ tốn 10 vạn thay vì 2 vạn).",
-    "Hộp ➕ Thêm thành viên: tìm tên, tích rồi nhập luôn Lương và Hỗ trợ vạn ngay bên cạnh (nhập số là tự tích), một lần OK thêm nhiều người kèm số. Tên không có trong danh sách bang thì gõ tên rồi Enter để thêm tay.",
-    "Nút 🔄 Phí thư → Hỗ trợ vạn: lấy cột Phí trả lại (vạn) của Báo cáo → Top gửi thư theo khoảng Xem đang chọn, đổi ra KNB (1 KNB = 25 vạn, làm tròn gần nhất: 70 vạn → 3 KNB, 58 → 2, 8 → 0) và điền cả cột một lượt. App hỏi trước khi ghi đè, báo tên có phí nhưng chưa trong danh sách lương.",
-    "Nút 🧹 Xoá Hỗ trợ vạn: đưa cả cột về 0 một lần, lương giữ nguyên.",
-    "Hộp xác nhận Phát lương là cửa sổ có ô cuộn: danh sách dài không còn đẩy nút Yes / No ra ngoài màn hình. Có người đã phát hôm nay thì No là nút mặc định.",
-    "Hai ô Lương và Hỗ trợ vạn rộng bằng nhau, số canh giữa, bỏ chữ \"KNB\" trong ô, tối đa 999 mỗi ô (gõ thừa một số là bị cắt về 999).",
-    "Mọi ô số và ô ngày giờ không còn đổi giá trị khi lăn chuột, tránh lỡ tay làm sai số lúc cuộn trang. Vẫn gõ số hoặc bấm nút lên xuống; lăn chuột trên ô chỉ cuộn trang.",
-    "Ô số đang bằng 0 hiện trống thay vì \"0\", nên gõ 125 ra đúng 125 chứ không thành 1250. Bấm chuột vào ô số đang có số thì số được chọn sẵn, gõ là thay luôn.",
-    "Cột KNB nhận và Quỹ còn lại hiện số nguyên, không còn khoảng trắng ngăn hàng nghìn. Làm tròn kiểu thường: lẻ dưới 0,5 bỏ, từ 0,5 trở lên tròn lên.",
-    "Excel và Google Sheets cũng làm tròn cột KNB Nhận bằng ROUND. KNB mỗi công vẫn giữ một chữ số lẻ để kiểm tra phép chia."
+    "Bảng công kỳ: nhấp đúp ô STT hoặc Zalo để nhập ngay tại chỗ, lưu thẳng vào Danh bạ bang (số đã sửa tay hiện màu cam, xoá trống để lấy lại từ Discord). Không phải sang thẻ Danh bạ khi gặp người chưa ghép được."
   ],
   "mandatory": false
 }
