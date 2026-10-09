@@ -1,11 +1,12 @@
 {
-  "version": "1.3.2",
-  "released": "2026-10-08",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.2.exe",
-  "sha256": "de10b8eb558e01ab98533f709ddf3068633939d492901d40d52f00add9d9d902",
-  "size": 81510092,
+  "version": "1.3.4",
+  "released": "2026-10-09",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.4.exe",
+  "sha256": "63ef069b30cd9bc41450f9ab85187567658467cf606a2f8c93af1d7df5847c6a",
+  "size": 81526447,
   "notes": [
-    "Bảng công kỳ: nhấp đúp ô STT hoặc Zalo để nhập ngay tại chỗ, lưu thẳng vào Danh bạ bang (số đã sửa tay hiện màu cam, xoá trống để lấy lại từ Discord). Không phải sang thẻ Danh bạ khi gặp người chưa ghép được."
+    "Điểm danh ca có nút 🔁 Tự chụp 10 giây: bật là app tự chụp 10 giây một lần cho tới khi bấm dừng, không bật hộp thông báo giữa chừng, nút hiện số lần đã chụp. Bảng gộp vẽ lại 30 giây một lần; hai cột 🎮 lần và 🎧 lần cho biết ai bám đội hình suốt ca. Tự dừng khi ca bị chốt hoặc mất cả game lẫn Discord.",
+    "Bỏ ô \"🔎 Tự hỏi tên người đứng sẵn\": app luôn tự hỏi tên khi điểm danh, không phải bật tắt nữa."
   ],
   "mandatory": false
 }
