@@ -1,12 +1,18 @@
 {
-  "version": "1.3.4",
-  "released": "2026-10-09",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.4.exe",
-  "sha256": "63ef069b30cd9bc41450f9ab85187567658467cf606a2f8c93af1d7df5847c6a",
-  "size": 81526447,
+  "version": "1.3.9",
+  "released": "2026-10-11",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.9.exe",
+  "sha256": "3c4ed243378b456a47d283ca9443bbce4d6955ad5a4b611ddcceae30bc1a9a26",
+  "size": 81733610,
   "notes": [
-    "Điểm danh ca có nút 🔁 Tự chụp 10 giây: bật là app tự chụp 10 giây một lần cho tới khi bấm dừng, không bật hộp thông báo giữa chừng, nút hiện số lần đã chụp. Bảng gộp vẽ lại 30 giây một lần; hai cột 🎮 lần và 🎧 lần cho biết ai bám đội hình suốt ca. Tự dừng khi ca bị chốt hoặc mất cả game lẫn Discord.",
-    "Bỏ ô \"🔎 Tự hỏi tên người đứng sẵn\": app luôn tự hỏi tên khi điểm danh, không phải bật tắt nữa."
+    "Bán quả: chuột phải dòng Chờ ghi \"Được\" → ⬆ Đẩy lên tự động, hoặc bấm nút vàng ⬆ Đẩy tất cả lên tự động (có hộp xem trước). Lỡ đẩy nhầm thì chuột phải dòng ở bảng trên → ⬇ Trả về Chờ.",
+    "Bán quả: thư bán dở vì hết quả không còn rơi xuống Chờ, có quả lại app gửi nốt cho người mua trước. Nhấp đúp dòng bảng bán để sửa số quả. Nút ➕ Bán tay cho người mua không gửi thư (tên gõ tay hoặc chọn trong hảo hữu acc kho).",
+    "Hỗ trợ: thẻ 🎁 Hỗ trợ có thêm ⚔ Hỗ trợ PK: nhập điểm PK từng người, app gửi KNB qua thư \"Hỗ trợ PK x\" (mặc định 1 điểm = 3 KNB, đổi được).",
+    "Đối chiếu quả: Xoá nợ nay là chốt sổ cho từng người, xem lịch nào nợ cũng không hiện lại (xoá dòng 🧾 Xoá nợ là hoàn tác). Nút 💲 Giá các ngày để xem và sửa giá từng ngày. Đặt Lại không xoá dòng Hỗ trợ trừ nợ.",
+    "Chấm Công: đầu tab có dòng báo danh sách bang tự cập nhật lúc nào, bao nhiêu người, chuyển đỏ khi chưa chọn LD hoặc quá 15 phút chưa cập nhật. Nút trên cùng đổi tên thành 👥 Chấm Công + DS bang.",
+    "Chấm Công: Danh bạ bang có 🔀 Gộp tên cho người đổi tên hoặc đổi acc (chuyển STT, Zalo, công, Ứng, ghép Discord sang tên mới). Ô tìm không cần gõ dấu. Đóng hộp danh sách bang mà chưa Lưu thì app hỏi lại.",
+    "Discord: 📝 Mẫu biệt danh để chọn kiểu đặt biệt danh của bang, có bảng xem trước. Hộp 🔑 Token hiện token đang lưu, dán vào tự làm sạch, có nút 🗑 Xoá token.",
+    "Khác: Boss HK nhấp đúp ô điểm boss để ghi chú ngắn. Hộp Thư luôn tự cập nhật, bỏ ô \"Tự cập nhật hộp thư\"."
   ],
   "mandatory": false
 }
