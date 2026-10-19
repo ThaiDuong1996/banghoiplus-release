@@ -1,18 +1,18 @@
 {
-  "version": "1.3.9",
-  "released": "2026-10-11",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.9.exe",
-  "sha256": "3c4ed243378b456a47d283ca9443bbce4d6955ad5a4b611ddcceae30bc1a9a26",
-  "size": 81733610,
+  "version": "1.3.23",
+  "released": "2026-10-19",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.23.exe",
+  "sha256": "7f4753ef310d346ce03bed075b07ca2902f44407de3ef1af4b92d60d39e3cdc6",
+  "size": 81789743,
   "notes": [
-    "Bán quả: chuột phải dòng Chờ ghi \"Được\" → ⬆ Đẩy lên tự động, hoặc bấm nút vàng ⬆ Đẩy tất cả lên tự động (có hộp xem trước). Lỡ đẩy nhầm thì chuột phải dòng ở bảng trên → ⬇ Trả về Chờ.",
-    "Bán quả: thư bán dở vì hết quả không còn rơi xuống Chờ, có quả lại app gửi nốt cho người mua trước. Nhấp đúp dòng bảng bán để sửa số quả. Nút ➕ Bán tay cho người mua không gửi thư (tên gõ tay hoặc chọn trong hảo hữu acc kho).",
-    "Hỗ trợ: thẻ 🎁 Hỗ trợ có thêm ⚔ Hỗ trợ PK: nhập điểm PK từng người, app gửi KNB qua thư \"Hỗ trợ PK x\" (mặc định 1 điểm = 3 KNB, đổi được).",
-    "Đối chiếu quả: Xoá nợ nay là chốt sổ cho từng người, xem lịch nào nợ cũng không hiện lại (xoá dòng 🧾 Xoá nợ là hoàn tác). Nút 💲 Giá các ngày để xem và sửa giá từng ngày. Đặt Lại không xoá dòng Hỗ trợ trừ nợ.",
-    "Chấm Công: đầu tab có dòng báo danh sách bang tự cập nhật lúc nào, bao nhiêu người, chuyển đỏ khi chưa chọn LD hoặc quá 15 phút chưa cập nhật. Nút trên cùng đổi tên thành 👥 Chấm Công + DS bang.",
-    "Chấm Công: Danh bạ bang có 🔀 Gộp tên cho người đổi tên hoặc đổi acc (chuyển STT, Zalo, công, Ứng, ghép Discord sang tên mới). Ô tìm không cần gõ dấu. Đóng hộp danh sách bang mà chưa Lưu thì app hỏi lại.",
-    "Discord: 📝 Mẫu biệt danh để chọn kiểu đặt biệt danh của bang, có bảng xem trước. Hộp 🔑 Token hiện token đang lưu, dán vào tự làm sạch, có nút 🗑 Xoá token.",
-    "Khác: Boss HK nhấp đúp ô điểm boss để ghi chú ngắn. Hộp Thư luôn tự cập nhật, bỏ ô \"Tự cập nhật hộp thư\"."
+    "Tab 📬 Hộp Thư đổi tên thành 📦 Thủ Kho. Đối chiếu quả, Đề xuất bán, Hỗ trợ, Hỗ trợ PK và Báo cáo tự cập nhật khi có thư, quả, giao dịch hay danh sách bang đổi, không cần bấm Check / Làm mới nữa.",
+    "Báo cáo: hộp số đầu thẻ làm lại 1 hàng 8 ô dễ hiểu. Mọi KNB vào kho gom về ô 💎 KNB nhận về (TV mua · Kho bán · Chợ), Kho bán = số quả bán × giá ngày (Excel / Sheets cũng tính như vậy). Rê chuột vào từng ô để xem cách tính có ví dụ.",
+    "Báo cáo: ô Nợ quả còn tính đúng như thẻ Đối chiếu quả, chỉ trong khoảng ngày đang xem.",
+    "Lương: chọn \"Phí thư trả bằng\" KNB hoặc Vạn (chọn Vạn thì thư lương gửi kèm vạn bạc trả phí thư). Thanh nút gọn còn 5 nút, việc xoá hàng loạt gom vào 🧹 Dọn; chuột phải hoặc nhấp đúp bảng để sửa, xoá dòng.",
+    "Đối chiếu quả: hộp 💲 Giá các ngày đặt sẵn được giá cho ngày bất kỳ, kể cả ngày mai trở đi, và không còn cắt chữ.",
+    "Chấm Công: bấm ▶ Bắt Đầu là app tự bật Discord và chọn phòng voice đông người nhất. Tự hỏi tên luôn bật, nút 🔒 Chốt ca nổi màu, hộp 📝 Mẫu biệt danh hết đơ.",
+    "Boss: dòng ghi chú dưới mỗi ô toạ độ to hơn, màu xanh lá cho dễ nhìn.",
+    "Nhẹ máy: bản ghi gói chat mỗi ngày một file, chỉ giữ 3 ngày gần nhất. Tính nợ quả, đề xuất bán, hỗ trợ nhanh hơn với sổ nhiều ngày."
   ],
   "mandatory": false
 }
