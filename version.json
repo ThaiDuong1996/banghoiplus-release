@@ -1,18 +1,16 @@
 {
-  "version": "1.3.23",
-  "released": "2026-10-19",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.23.exe",
-  "sha256": "7f4753ef310d346ce03bed075b07ca2902f44407de3ef1af4b92d60d39e3cdc6",
-  "size": 81789743,
+  "version": "1.3.28",
+  "released": "2026-10-22",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.28.exe",
+  "sha256": "03d2f1dcd146122452e39fa388d3008dd5baae92cb9f322bf87dc9a04afa5de0",
+  "size": 81950489,
   "notes": [
-    "Tab 📬 Hộp Thư đổi tên thành 📦 Thủ Kho. Đối chiếu quả, Đề xuất bán, Hỗ trợ, Hỗ trợ PK và Báo cáo tự cập nhật khi có thư, quả, giao dịch hay danh sách bang đổi, không cần bấm Check / Làm mới nữa.",
-    "Báo cáo: hộp số đầu thẻ làm lại 1 hàng 8 ô dễ hiểu. Mọi KNB vào kho gom về ô 💎 KNB nhận về (TV mua · Kho bán · Chợ), Kho bán = số quả bán × giá ngày (Excel / Sheets cũng tính như vậy). Rê chuột vào từng ô để xem cách tính có ví dụ.",
-    "Báo cáo: ô Nợ quả còn tính đúng như thẻ Đối chiếu quả, chỉ trong khoảng ngày đang xem.",
-    "Lương: chọn \"Phí thư trả bằng\" KNB hoặc Vạn (chọn Vạn thì thư lương gửi kèm vạn bạc trả phí thư). Thanh nút gọn còn 5 nút, việc xoá hàng loạt gom vào 🧹 Dọn; chuột phải hoặc nhấp đúp bảng để sửa, xoá dòng.",
-    "Đối chiếu quả: hộp 💲 Giá các ngày đặt sẵn được giá cho ngày bất kỳ, kể cả ngày mai trở đi, và không còn cắt chữ.",
-    "Chấm Công: bấm ▶ Bắt Đầu là app tự bật Discord và chọn phòng voice đông người nhất. Tự hỏi tên luôn bật, nút 🔒 Chốt ca nổi màu, hộp 📝 Mẫu biệt danh hết đơ.",
-    "Boss: dòng ghi chú dưới mỗi ô toạ độ to hơn, màu xanh lá cho dễ nhìn.",
-    "Nhẹ máy: bản ghi gói chat mỗi ngày một file, chỉ giữ 3 ngày gần nhất. Tính nợ quả, đề xuất bán, hỗ trợ nhanh hơn với sổ nhiều ngày."
+    "Thủ Kho có thẻ mới 🏪 Chợ: đặt giá bán và số quả giữ lại, bấm 🏪 Treo ngay hoặc tích 🤖 Tự treo là app tự treo quả lên chợ tới khi sạp đủ 32 món. Hết lượt treo thì app tự mua 10 lượt (1 KNB).",
+    "App tự ghi mọi việc trên chợ (treo, hủy bán, mua đồ, mua lượt), kể cả bạn tự làm trong game. 👀 Xem sạp cho biết số món đang treo, số lượt còn và món sắp hết hạn.",
+    "Tự nhận thư nay nhận cả thư Hệ Thống trả quả: hủy bán, mua quả trên chợ, quả treo hết hạn.",
+    "Lương: nút 💸 Ứng lương gửi một thư kèm KNB \"Ứng lương X KNB\" cho một người, ghi riêng, không tính là đã phát lương.",
+    "Báo cáo: thêm cột \"Chợ / phí thư\"; KNB và đồ trong thư tính vào kho lúc thư được nhận thật; ngày thiếu số bạc thì để trống. Hết cảnh báo Lệch âm sai.",
+    "Thanh trên cùng có nút 🗑 Đặt lại dữ liệu: đặt lại toàn bộ app hoặc từng mục (Chấm Công, Voucher, Quả, các phần của Thủ Kho) trong một lần, app tự sao lưu trước khi xoá. Boss HK, Boss PLD, Hảo hữu, danh bạ, cài đặt và giá luôn được giữ."
   ],
   "mandatory": false
 }
