@@ -1,15 +1,18 @@
 {
-  "version": "1.3.29",
-  "released": "2026-10-22",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.29.exe",
-  "sha256": "00af85e3ce748a08314dafce026dd3c302cdf96576a51b97db1b34339938cdcb",
-  "size": 81972420,
+  "version": "1.3.32",
+  "released": "2026-10-24",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.32.exe",
+  "sha256": "b9b2f5d39577f7dc520019073c51e18d007a9d4499818bc44ea65c8c047d0342",
+  "size": 82049948,
   "notes": [
-    "Lương: bấm 💵 Phát lương lại sau khi bị dừng giữa chừng nay chỉ phát tiếp cho người chưa nhận, không phát lại từ đầu. Ai hôm nay đã nhận đúng khoản đó thì app tự bỏ qua; khoản khác trong ngày (ví dụ lương KNB rồi phí thư bằng bạc) vẫn phát bình thường.",
-    "Lương: dòng lịch sử \"Chưa xác nhận\" có chuột phải → 🔁 Phát lại (sau khi xem Thư gửi đi) hoặc ✔ Đã nhận được.",
-    "Lương: phí thư trả bằng Vạn khi app chưa biết số bạc trong túi không còn báo \"quá 8 giây\" oan.",
-    "⚔ Hỗ trợ PK: sửa giống Lương, bấm lại không gửi trùng, có 🔁 Gửi lại / ✔ Đã nhận được.",
-    "Bán quả: thư KNB không chia hết cho giá quả (ví dụ 26 KNB, giá 4) nay đẩy lên hoặc duyệt được, app đề xuất số quả làm tròn xuống (6 quả), phần KNB dư tính vào sổ Đối chiếu. Không phải nhận thư tay rồi bán tay nữa."
+    "Hộp thư: hết lỗi báo \"Hộp thư trống\" trong khi thư vẫn còn trong game (hay gặp sau khi app nối lại bắt gói). Game không trả lời thì app giữ nguyên thư và báo vàng.",
+    "Lương / Hỗ trợ PK / Hỗ trợ quả / Ứng lương: app gửi đúng tên như trong game (lấy từ danh sách bang và hảo hữu). Tên gõ sai, không có trong danh sách thì giữ lại, không gửi.",
+    "Lương / Hỗ trợ PK: chỉ ghi \"Đã gửi\" khi KNB và vạn bạc trong túi giảm đúng số vừa gửi (cộng phí thư); giảm thiếu hoặc không giảm thì ghi \"Chưa xác nhận\".",
+    "Không còn phát trùng: app ghi sổ trước từng thư, nên tắt app, mất điện hay bấm lại sau 0 giờ cũng không gửi lại cho người đã nhận. Xoá lịch sử và 🗑 Đặt lại dữ liệu giữ các dòng hôm nay. Hỗ trợ quả gửi dở thì 🎁 Gửi lại gửi nốt phần thiếu.",
+    "Thư Hệ Thống hoàn trả (gửi sai tên, kể cả thư chỉ có vạn bạc) tự chuyển dòng lịch sử sang \"Bị hoàn trả\" và báo đỏ, để bạn nhận lại thư rồi 🔁 Phát lại.",
+    "Bán quả: thư ghi kiểu \"nhặt 7 mua 7\", \"mua 5 quả, nhặt được 2\" mà số KNB khớp thì app tự xử lý theo sổ nợ, không phải đẩy lên tay nữa.",
+    "Tab 🌟 Quả có nút ✋ Nhặt tay: quên bật app hay mất kết nối ở turn nào thì thêm lại người nhặt, số quả, ngày và turn; lượt thêm tay được tính ở mọi chỗ như lượt app bắt được. Báo cáo Hái được cộng cả số sửa tay ở Đối chiếu; số sửa tay không còn dồn vào Nợ cũ khi xem giữa ca.",
+    "Khác: app báo vàng khi giờ máy lệch giờ game quá 1 phút; tên gõ tay có dấu tổ hợp hoặc thừa dấu cách vẫn khớp đúng người; nút ➕ Thêm mẫu biệt danh Discord hết báo lỗi."
   ],
   "mandatory": false
 }
