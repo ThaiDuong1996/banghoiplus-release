@@ -1,18 +1,13 @@
 {
-  "version": "1.3.32",
-  "released": "2026-10-24",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.32.exe",
-  "sha256": "b9b2f5d39577f7dc520019073c51e18d007a9d4499818bc44ea65c8c047d0342",
-  "size": 82049948,
+  "version": "1.3.34",
+  "released": "2026-10-28",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.34.exe",
+  "sha256": "c8af2f5ff296fafa69e415b351dd56174f0a49d2ce2dd34d18b6de6fa110f8f2",
+  "size": 82055966,
   "notes": [
-    "Hộp thư: hết lỗi báo \"Hộp thư trống\" trong khi thư vẫn còn trong game (hay gặp sau khi app nối lại bắt gói). Game không trả lời thì app giữ nguyên thư và báo vàng.",
-    "Lương / Hỗ trợ PK / Hỗ trợ quả / Ứng lương: app gửi đúng tên như trong game (lấy từ danh sách bang và hảo hữu). Tên gõ sai, không có trong danh sách thì giữ lại, không gửi.",
-    "Lương / Hỗ trợ PK: chỉ ghi \"Đã gửi\" khi KNB và vạn bạc trong túi giảm đúng số vừa gửi (cộng phí thư); giảm thiếu hoặc không giảm thì ghi \"Chưa xác nhận\".",
-    "Không còn phát trùng: app ghi sổ trước từng thư, nên tắt app, mất điện hay bấm lại sau 0 giờ cũng không gửi lại cho người đã nhận. Xoá lịch sử và 🗑 Đặt lại dữ liệu giữ các dòng hôm nay. Hỗ trợ quả gửi dở thì 🎁 Gửi lại gửi nốt phần thiếu.",
-    "Thư Hệ Thống hoàn trả (gửi sai tên, kể cả thư chỉ có vạn bạc) tự chuyển dòng lịch sử sang \"Bị hoàn trả\" và báo đỏ, để bạn nhận lại thư rồi 🔁 Phát lại.",
-    "Bán quả: thư ghi kiểu \"nhặt 7 mua 7\", \"mua 5 quả, nhặt được 2\" mà số KNB khớp thì app tự xử lý theo sổ nợ, không phải đẩy lên tay nữa.",
-    "Tab 🌟 Quả có nút ✋ Nhặt tay: quên bật app hay mất kết nối ở turn nào thì thêm lại người nhặt, số quả, ngày và turn; lượt thêm tay được tính ở mọi chỗ như lượt app bắt được. Báo cáo Hái được cộng cả số sửa tay ở Đối chiếu; số sửa tay không còn dồn vào Nợ cũ khi xem giữa ca.",
-    "Khác: app báo vàng khi giờ máy lệch giờ game quá 1 phút; tên gõ tay có dấu tổ hợp hoặc thừa dấu cách vẫn khớp đúng người; nút ➕ Thêm mẫu biệt danh Discord hết báo lỗi."
+    "🍑 Hỗ trợ quả: sáng đã gửi rồi, tối nâng số quả mỗi ngày lên thì bấm 🎁 Gửi hỗ trợ sẽ gửi thêm phần chênh (sáng 1, tối đặt 2 → gửi thêm 1). Nếu người đó còn nợ thì phần thêm vẫn dùng để trừ nợ trước. Không nâng số thì app vẫn chặn, không gửi trùng.",
+    "⚔ Hỗ trợ PK: gửi xong một trận, bấm 🧹 Xoá điểm rồi nhập điểm trận sau là gửi được, kể cả khi điểm giống trận trước. Chưa xoá điểm thì app vẫn bỏ qua người đã nhận đúng khoản đó.",
+    "Hộp 🔑 Token Bot Discord: dòng hướng dẫn tạo bot có link https://discord.com/developers/applications, bấm vào là mở trang tạo bot."
   ],
   "mandatory": false
 }
