@@ -1,17 +1,14 @@
 {
-  "version": "1.3.38",
-  "released": "2026-11-04",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.38.exe",
-  "sha256": "f339191143e2f433c8e678672c0b7828aaac638c7457d3ed50f9aa3dd3e5b716",
-  "size": 82982675,
+  "version": "1.3.39",
+  "released": "2026-11-05",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.39.exe",
+  "sha256": "89ea5eb9b289307e60876bf4c776940feb6812ea7aacbd7a66abef909aaa75a3",
+  "size": 82985140,
   "notes": [
-    "👥 Tắt tự đồng bộ danh sách bang vẫn điểm danh bình thường trên LD đã chọn, dùng danh sách đã lưu. Bật lại bằng ▶ Bật tự đồng bộ.",
-    "👥 Thành viên bang phụ: dán thêm tên vào danh sách bang rồi Lưu, tên được giữ lại khi tự đồng bộ chạy. Muốn bỏ thì xoá tên rồi Lưu.",
-    "🖥 Đổi LD điểm danh khi đang ▶ Bắt Đầu thì app tự chuyển sang máy mới.",
-    "⏱ Điểm danh ca: thêm cột BQL cho biết người được điểm danh có đang dùng Bách Quả Lộ (Có / Không) và cột Lần cuối thấy.",
-    "📊 Excel ca: thêm cột Bách Quả Lộ và giờ thấy lần đầu / lần cuối trong game và Discord.",
-    "🌟 Excel tab Quả có thêm cột 🌟 Hoàng Kim, giống bảng trong app.",
-    "🖱 Kéo dãn / thu nhỏ cửa sổ mượt hơn hẳn, không còn khựng."
+    "🍑 Đối chiếu quả: nợ luôn tính từ ngày 📒 Sổ nợ, đổi lịch xem không còn làm mất nợ. Trước đây xem từ 2/11 tới 4/11, hay xem riêng một ngày không có hoạt động, có thể báo hết nợ trong khi người đó còn nợ hôm trước.",
+    "🍑 Cột \"Nợ cũ\" đổi thành \"Nợ đầu kỳ\": nợ mang sang từ trước ngày đầu của lịch xem. Còn nợ ở cuối lịch xem luôn như nhau dù chọn ngày bắt đầu nào.",
+    "📒 Nút Sổ nợ (trước là ⚙ Mở sổ) đưa lên đầu thanh, tô màu cho dễ thấy. Mốc này dùng chung cho Đối chiếu, Báo cáo, tự bán quả, bán tay và gửi hỗ trợ. Đặt ở lúc cả bang đã trả hoặc đã Xoá nợ hết; còn người nợ hôm trước sẽ trả sau thì lùi mốc về trước ngày đó.",
+    "📊 Báo cáo: Nợ quả còn tính giống hệt thẻ Đối chiếu (có cả nợ mang sang)."
   ],
   "mandatory": false
 }
