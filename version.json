@@ -1,11 +1,18 @@
 {
-  "version": "1.3.41",
-  "released": "2026-11-14",
-  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.41.exe",
-  "sha256": "f068ccfa43280267471bb5d5b5a88d90731f0a0737b7ef21391850271fcd4774",
-  "size": 83050221,
+  "version": "1.3.43",
+  "released": "2026-11-16",
+  "url": "https://raw.githubusercontent.com/ThaiDuong1996/banghoiplus-release/tai-ve/BangHoiPlus_v1.3.43.exe",
+  "sha256": "3e11d1f24083cf8be9e490a1c53abbbc81f26932727dc092fa2fb9aed6b6e743",
+  "size": 42789269,
   "notes": [
-    "📍 Tự gửi toạ độ boss: mỗi điểm boss gửi một tin riêng, không gộp nhiều điểm cùng map vào một dòng chat cho đỡ rối mắt. Các tin vẫn ra theo thứ tự map đã sắp, cách nhau vài giây."
+    "⚡ App nhẹ máy hơn hẳn lúc đông người (boss, giờ quả): phần đọc gói tin nhanh hơn khoảng 100 lần, bớt giật cửa sổ và bớt ăn CPU.",
+    "⚡ File cài nhỏ hơn một nửa và mở app nhanh hơn.",
+    "⏱ Chấm Công: bật Tự chụp không còn làm cửa sổ khựng mỗi 10 giây; file dữ liệu chấm công, quả, voucher nhỏ hơn khoảng 40%.",
+    "🖥 Hộp chọn máy ảo không còn đứng khi mở hay khi gõ đường dẫn; đổi máy ảo, bấm Tạm Dừng không còn bắt cửa sổ chờ.",
+    "🔒 Bản cập nhật tự động có chữ ký số: app chỉ cài bản do chính người bán phát hành.",
+    "🔒 Token bot Discord được mã hoá theo tài khoản Windows của bạn. Token đang dùng giữ nguyên, chỉ mã hoá khi bạn dán token mới.",
+    "Khi key buộc app dừng theo dõi, lý do được ghi vào nhật ký (data/app.log) để người bán tra được."
   ],
-  "mandatory": false
+  "mandatory": false,
+  "ky": "3l+RO3UYDJ4yVjU2WBy8GDSvUgXeqZlPYXr+g8acIHPdsklXRMIurG8IsMYz9UyLO6KwcEICGDoZPIRM6YB5Aw=="
 }
